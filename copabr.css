@@ -47,6 +47,6 @@ main > span > ul > li > a{
     transition-duration: 0.5s;
 } 
 main > span > ul > li > a:hover{
-    background-color: rgba(0, 0, 0, 0.37);
+    background-color:rgba(255, 0, 0, 0.452);
     padding: 10px;
 }
