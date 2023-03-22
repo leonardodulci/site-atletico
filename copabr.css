@@ -34,7 +34,8 @@ header > p {
 }
 
 main > span > ul{
-    padding-top: 15px; ;
+    padding-top: 15px;
+    padding-bottom: 10px;
     text-align: center;
     columns: 2;  
     background-color: white;
@@ -46,7 +47,7 @@ main > span > ul > li > a{
     text-decoration: none;
     color: black;
     transition-duration: 0.5s;
-    padding-bottom: 20px ;
+    padding-bottom: 7px;
 } 
 main > span > ul > li > a:hover{
     background-color: rgba(255, 0, 0, 0.884) ;
