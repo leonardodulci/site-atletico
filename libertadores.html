@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título da Libertadores</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a::after{
+    content: '\00a0\1F517';
+}
+a.externo::after{
+    content: '\00a0\1F517';
+}
+:root{
+   --fonte-título: 'anton';
+   --fonte-texto: 'roboto condensed', arial;
+   --fonte-especial: 'bebas neue'
+
+} 
+body{
+    background-color: black;
+}
+header {
+    background-color: white;
+    font-family: var(--fonte-título);
+    padding: 30px;
+    text-align: center;
+    font-size: 1.5em;
+}
+header > p{
+    color: black;
+    background-color: white;
+    font-family: var(--fonte-texto);
+    font-size: 0.8em;
+    padding-top: 20px;
+}
+main{
+    padding-top: 35px;
+    min-height: 350px;
+    max-width: 1250px;
+    margin: auto;
+}
+img{
+    width: 100%;
+    display: block;  
+}
+main > p{
+    color: white;
+    font-family: var(--fonte-texto);
+}
+div > p{
+    font-family: var(--fonte-texto);
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    margin-bottom: 20px;
+}
+div.video{
+    background-color: white; 
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 57%;
+    position: relative;
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+footer > a{
+    font-family: var(--fonte-texto);
+    color: white;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    columns: 1;
+   
+}
+   </style>
+</head>
+<body>
+    <header>
+        <h1>Título da Libertadores</h1>
+        <p>Atlético Mineiro e Olimpia chegaram a final da competição, com o primeiro chegando a uma final inédita e o clube paraguaio pela sétima vez. Na partida de ida em Assunção, o Olimpia venceu por 2x0, mas o Atlético devolveu o placar no jogo de volta, em Belo Horizonte, e o título foi decidido nos pênaltis, após a prorrogação sem gols. O clube brasileiro venceu por 4x3 e conquistou a Copa Libertadores pela primeira vez. Com isso garantiu vaga no Mundial de Clubes de 2013 no Marrocos e o direito de disputar a <a href="https://pt.wikipedia.org/wiki/Recopa_Sul-Americana_de_2014#:~:text=A%20%EE%80%80Recopa%20Sul-Americana%20de%202014%EE%80%81%2C%20oficialmente%20%EE%80%80Recopa%EE%80%81%20Santander,do%20Lan%C3%BAs%2C%20campe%C3%A3o%20da%20Copa%20%EE%80%80Sul-Americana%EE%80%81%20de%202013." target="_blank" rel="external">Recopa Sul-Americana de 2014</a> contra o vencedor da Copa Sul-Americana de 2013.</p>
+    </header>
+    <main>
+       
+        <picture>
+            <source media="(max-width: 650px )" srcset="imagens/libertadores400px.jpg" type="image/jpg">
+      
+            <img src="imagens/libertadores1200px.jpg" alt="foto libertadores">
+        </picture>
+        <p>Aqui selecionei os gols do nosso Galão na libertadores de 2013, com Ronaldinho no comando do Galo.</p>
+
+    </main>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/b8ftAL1wTfs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    
+   
+    <footer>
+    
+        <a href="atleticomg.html"> página inicial</a>
+       
+    </footer>
+</body>
+</html>

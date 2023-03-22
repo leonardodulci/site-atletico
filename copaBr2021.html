@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título da Copa do Brasil 2021</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a::after{
+    content: '\00a0\1F517';
+}
+a.externo::after{
+    content: '\00a0\1F517';
+}
+:root{
+   --fonte-título: 'anton';
+   --fonte-texto: 'roboto condensed', arial;
+   --fonte-especial: 'bebas neue'
+
+} 
+body{
+    background-color: black;
+}
+header {
+    background-color: white;
+    font-family: var(--fonte-título);
+    padding: 30px;
+    text-align: center;
+    font-size: 1.5em;
+}
+header > p{
+    color: black;
+    background-color: white;
+    font-family: var(--fonte-texto);
+    font-size: 0.8em;
+    padding-top: 20px;
+}
+main{
+    padding-top: 35px;
+    min-height: 350px;
+    max-width: 1250px;
+    margin: auto;
+}
+img{
+    width: 100%;
+    display: block;  
+}
+main > p{
+    color: white;
+    font-family: var(--fonte-texto);
+    padding-left: 15px;
+}
+div > p{
+    font-family: var(--fonte-texto);
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    margin-bottom: 20px;
+}
+div.video{
+    background-color: white; 
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 57%;
+    position: relative;
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+footer > a{
+    font-family: var(--fonte-texto);
+    color: white;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    columns: 1;
+   
+}
+   </style>
+</head>
+<body>
+    <header>
+        <h1>Título da Copa do Brasil de 2021</h1>
+    </header>
+    <main>
+        <p>A Copa do Brasil de 2021 (por questões de patrocínio Copa Intelbras do Brasil) foi a 33ª edição dessa competição brasileira de futebol organizada pela Confederação Brasileira de Futebol (CBF).  Foi vencida pelo Atlético Mineiro que conquistou seu 2° título, tendo vencido anteriormente a Copa do Brasil de 2014. Devido às mudanças de formato da Copa Sul-Americana para a edição de 2021 realizadas pela CONMEBOL, a CBF teve de alterar não só as datas como também o formato de disputa da Copa do Brasil de 2021. O número de equipes participantes aumentou de 91 para 92, serão sete fases em vez de oito e as doze equipes vindas da Copa Libertadores da América e de outras competições nacionais - campeões da Copa Verde, Copa do Nordeste e Série B - entrarão na terceira fase, em vez de entrarem nas oitavas.</p>
+    <picture>
+        <source media="(max-width:450px )" srcset="imagens2021/copa2021400px.jpg" type="image/jpg">
+        <img src="imagens2021/copa2021900px.jpg" alt="galo 2021">
+    </picture>
+    <br><br>
+    <p>Aqui temos a nossa retrospectiva na copa do br 2021</p>
+    </main>
+        <div class="video">
+        
+             <iframe width="560" height="315" src="https://www.youtube.com/embed/ahNj5Dud7-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+       </div>
+    
+    <footer>
+      
+        <br>
+        <a href="atleticomg.html">página inicial</a> <br>
+        <a href="copaBR.html">voltar para os títulos da copa BR</a>
+    </footer>
+
+    
+</body>
+</html>

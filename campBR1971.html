@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campeaonato Brasileiro 1971</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a::after{
+    content: '\00a0\1F517';
+}
+a.externo::after{
+    content: '\00a0\1F517';
+}
+:root{
+   --fonte-título: 'anton';
+   --fonte-texto: 'roboto condensed', arial;
+   --fonte-especial: 'bebas neue'
+
+} 
+body{
+    background-color: black;
+}
+header {
+    background-color: white;
+    font-family: var(--fonte-título);
+    padding: 30px;
+    text-align: center;
+    font-size: 1.5em;
+}
+header > p{
+    color: black;
+    background-color: white;
+    font-family: var(--fonte-texto);
+    font-size: 0.8em;
+    padding-top: 20px;
+}
+main{
+    padding-top: 35px;
+    min-height: 350px;
+    max-width: 1250px;
+    margin: auto;
+}
+img{
+    width: 100%;
+    display: block;  
+}
+main > p{
+    color: white;
+    font-family: var(--fonte-texto);
+}
+div > p{
+    font-family: var(--fonte-texto);
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    margin-bottom: 20px;
+}
+div.video{
+    background-color: white; 
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 57%;
+    position: relative;
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+footer > a{
+    font-family: var(--fonte-texto);
+    color: white;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    columns: 1;
+   
+}
+   </style>
+</head>
+<body>
+    <header>
+        <h1>Campeonato Brasileiro 1971</h1>
+    </header>
+    <main>
+        <p>O Campeonato Brasileiro de Futebol de 1971, originalmente denominado Campeonato Nacional de Clubes pela CBD, foi a décima quinta edição do Campeonato Brasileiro. Entretanto, de 1976 até 2010, quando a CBF unificou os títulos brasileiros anteriores a 1971, passando a considerar a Taça Brasil de 1959 como sendo a primeira edição do campeonato, este torneio era considerado pela entidade máxima do futebol nacional como sendo a primeira edição do Brasileirão.O certame foi vencido pelo Atlético Mineiro, conquistando assim o seu primeiro título de campeão brasileiro. Em 2021, a CBF lançou a marca "Brasileirão Assaí 50 anos", que "marca o tempo de existência do Campeonato Brasileiro com este nome, ou seja, desde 1971". Ressaltou porém que os títulos anteriores a essa data são reconhecidos como "campeonatos brasileiros"</p>
+    
+    
+        <picture>
+            <source media="(max-width: 850px)" srcset="imagens1971/galo1971.400px.png" type="image/png">
+            
+            <img src="imagens1971/galo1971.1000px.png" alt="galao">
+        </picture>
+
+        <br>
+        <br>
+        <br>
+        <p>Alguns lances do último jogo contra o Botafogo, jogo do título</p>
+    </main>
+
+        <div class="video"> 
+            <iframe width="615" height="315" src="https://www.youtube.com/embed/KD8hPDrqo8k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    <footer>
+        <a href="atleticomg.html">voltar para o menu inicial</a>
+       <a href="campBr.html">voltar para títulos do BR</a>
+    </footer>
+</body>
+</html>
