@@ -1,0 +1,80 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a::after{
+    content: '\00a0\1F517';
+}
+a.externo::after{
+    content: '\00a0\1F517';
+}
+:root{
+   --fonte-título: 'anton';
+   --fonte-texto: 'roboto condensed', arial;
+   --fonte-especial: 'bebas neue'
+
+} 
+body{
+    background-color: black;
+}
+header {
+    background-color: white;
+    font-family: var(--fonte-título);
+    padding: 30px;
+    text-align: center;
+    font-size: 1.5em;
+}
+header > p{
+    color: black;
+    background-color: white;
+    font-family: var(--fonte-texto);
+    font-size: 0.8em;
+    padding-top: 20px;
+}
+main{
+    padding-top: 35px;
+    min-height: 350px;
+    max-width: 1250px;
+    margin: auto;
+}
+img{
+    width: 100%;
+    display: block;  
+}
+main > p{
+    color: white;
+    font-family: var(--fonte-texto);
+}
+div > p{
+    font-family: var(--fonte-texto);
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    margin-bottom: 20px;
+}
+div.video{
+    background-color: white; 
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 57%;
+    position: relative;
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+footer > a{
+    font-family: var(--fonte-texto);
+    color: white;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    columns: 1;
+   
+}
